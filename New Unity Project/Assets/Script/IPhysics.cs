@@ -2,15 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IPhysics : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+namespace JPhysics{
+	public interface IPhysics{
+		void GetPointByShotParamaters(Vector3 targetPosition, float sideSpin, float topBackSpin);
 	}
 }
